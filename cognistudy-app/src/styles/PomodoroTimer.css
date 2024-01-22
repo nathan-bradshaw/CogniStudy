@@ -1,0 +1,97 @@
+/* PomodoroTimer.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.timer-container {
+  text-align: center;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.timer {
+  font-size: 3em;
+  margin: 20px 0;
+  color: #333;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.start-btn {
+  background-color: #3498db;
+}
+
+.start-btn:hover {
+  background-color: #2980b9;
+}
+
+.pause-btn {
+  background-color: #e74c3c;
+}
+
+.pause-btn:hover {
+  background-color: #c0392b;
+}
+
+.reset-btn {
+  background-color: #d35400;
+}
+
+.reset-btn:hover {
+  background-color: #a04000;
+}
+
+/* Additional styles for settings */
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  font-size: 1em;
+  padding: 5px;
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.update-btn {
+  background-color: #2980b9;
+  margin-top: 10px;
+}
+
+.update-btn:hover {
+  background-color: #1c6395;
+}
